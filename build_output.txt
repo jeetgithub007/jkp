@@ -1,0 +1,25 @@
+ΓÜá Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\jparg\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\jparg\OneDrive\Desktop\aitools comparision\package-lock.json
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 5.0s
+  Running TypeScript ...
+Failed to compile.
+
+./src/app/admin/submissions/page.tsx:30:17
+Type error: Type 'string' is not assignable to type '"Free" | "Freemium" | "Paid" | "Enterprise"'.
+
+  28 |                 pros: [],
+  29 |                 cons: [],
+> 30 |                 pricing: sub.pricing,
+     |                 ^
+  31 |                 logo: 'https://cdn-icons-png.flaticon.com/512/3652/3652191.png',
+  32 |                 affiliateLink: sub.websiteUrl,
+  33 |                 lastUpdated: new Date().toISOString()
+Next.js build worker exited with code: 1 and signal: null

@@ -1,0 +1,29 @@
+
+> aizonet-hub@0.1.0 build
+> next build
+
+ΓÜá Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\jparg\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\jparg\OneDrive\Desktop\aitools comparision\package-lock.json
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 4.7s
+  Running TypeScript ...
+Failed to compile.
+
+./src/app/compare/page.tsx:104:42
+Type error: Cannot find name 'Layers'.
+
+  102 |                                     </div>
+  103 |                                     <div className={styles.compCategory}>
+> 104 |                                         <Layers size={14} /> Feature Showdown
+      |                                          ^
+  105 |                                     </div>
+  106 |                                 </div>
+  107 |                                 <div className={styles.cardContent}>
+Next.js build worker exited with code: 1 and signal: null

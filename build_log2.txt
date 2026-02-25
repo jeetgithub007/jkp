@@ -1,0 +1,25 @@
+ΓÜá Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\jparg\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\jparg\OneDrive\Desktop\aitools comparision\package-lock.json
+System.Management.Automation.RemoteException
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 5.0s
+  Running TypeScript ...
+Failed to compile.
+System.Management.Automation.RemoteException
+./src/app/admin/tools/page.tsx:73:59
+Type error: Property 'tagline' does not exist on type 'Tool'.
+System.Management.Automation.RemoteException
+[0m [90m 71 |[39m                                                 [33m<[39m[33mdiv[39m style[33m=[39m{{ fontWeight[33m:[39m [35m600[39m }}[33m>[39m{tool[33m.[39mname}[33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 72 |[39m                                                 [33m<[39m[33mdiv[39m style[33m=[39m{{ fontSize[33m:[39m [32m'0.75rem'[39m[33m,[39m color[33m:[39m [32m'var(--text-dim)'[39m }}[33m>[39m
+[31m[1m>[22m[39m[90m 73 |[39m                                                     {tool[33m.[39mtagline[33m.[39msubstring([35m0[39m[33m,[39m [35m30[39m)}[33m...[39m
+ [90m    |[39m                                                           [31m[1m^[22m[39m
+ [90m 74 |[39m                                                 [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 75 |[39m                                             [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 76 |[39m                                         [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+Next.js build worker exited with code: 1 and signal: null
